@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+    text-align: center;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight:100px;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.fondo{
+    background-image: url(../PROYECTO/assets/imgempresa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inicio{
+    color: white;
+    margin-bottom: 60px;
+}
+.barra_navegacion a{
+      background: linear-gradient(45deg, #f5d76e, #f0c14b, #d4af37);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+    }
+.barra_navegacion a:hover{
+     transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+.info{
+    color: white;
+    font-size: 40px;
+    margin: 100px;
+}
+.containers{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+    url('/PROYECTO/assets/imgempresa.png') no-repeat center center;
+    height: 100vh;
+}
+
+.contenido{
+      position: relative;
+  z-index: 1;
+  padding: 4rem;
+  text-align: center;
+}
+
+

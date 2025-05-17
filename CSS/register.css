@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight:100px;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  color: white;
+}
+.container{
+    
+    background-image: url(../PROYECTO/assets/imgempresa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input::placeholder{
+    color: black;
+}
+input{
+    color: black;
+}
+.containers{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+    url('/PROYECTO/assets/imgempresa.png') no-repeat center center;
+    height: 100vh;
+}
+.containers{
+    margin-top: 10px;
+    padding: 40px;
+}
+.btn-primary{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    border-radius: 20px;
+}
+.form-control{
+    font-size: medium;
+    margin-top: 40px;
+}
